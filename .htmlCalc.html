@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <link rel="stylesheet" href="cssCalc.css">
+  <script src=".jsCalc.js"></script>
+ </head>
+ <body onload="displayNums(0)">
+  <div class="box">
+   <div class = "head"><h1 style="color:white;" id="myText"></h1></div>
+   <div class = "row">
+    <div class="button"><button id="nine" value="9" class="nums" onclick="displayNums('nine')">9</button></div>
+    <div class="button"><button id="eight" value="8" class="nums" onclick="displayNums('eight')">8</button></div>
+    <div class="button"><button id="seven" value="7" class="nums" onclick="displayNums('seven')">7</button></div>
+   </div>
+   <div class = "row">
+    <div class="button"><button id="six" value="6" class="nums" onclick="displayNums('six')">6</button></div>
+    <div class="button"><button id="five" value="5" class="nums" onclick="displayNums('five')">5</button></div>
+    <div class="button"><button id="four" value="4" class="nums" onclick="displayNums('four')">4</button></div>
+   </div>
+   <div class = "row">
+    <div class="button"><button id="three" value="3" class="nums" onclick="displayNums('three')">3</button></div>
+    <div class="button"><button id="two" value="2" class="nums" onclick="displayNums('two')">2</button></div>
+    <div class="button"><button id="one" value="1" class="nums" onclick="displayNums('one')">1</button></div>
+   </div>
+   <div class = "row">
+    <div class="button"><button id="zero" value="0" class="nums" onclick="displayNums('zero')">0</button></div>
+    <div class="button"><button id="minus" value=" - " class="nums" onclick="displayNums('minus')">-</button></div>
+    <div class="button"><button id="plus" value=" + " class="nums" onclick="displayNums('plus')">+</button></div>
+   </div>
+   <div class = "row">
+    <div class="button"><button id="times" value=" x " class="nums" onclick="displayNums('times')">x</button></div>
+    <div class="button"><button id="div" value=" / " class="nums" onclick="displayNums('div')">/</button></div>
+    <div class="button"><button id="clear" value="clear" class="nums" onclick="displayNums('clear')">clear</button></div>
+   </div>
+   <div class = "row">
+    <div class="button"><button class = "nums"></button></div>
+    <div class="button"><button class="nums"></button></div>
+    <div class="button"><button id="solve" value="solve" class="nums" onclick="displayNums('solve')">=</button></div>
+   </div>
+  </div>
+ </body>
+</html>

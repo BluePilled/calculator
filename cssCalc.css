@@ -1,0 +1,29 @@
+.box{
+ height: 1000px;
+ width:800px;
+ background-color: red;
+}
+.head{
+ background-color:black;
+ height:200px;
+}
+.row > div{
+ background-color:grey;
+ height: 100px;
+ float:left;
+ margin-left:25px;
+ margin-top:25px;
+}
+.button{
+ display:block;
+ background-color: red;
+ height: 50px;
+ width:233.33px;
+ 
+}
+
+.nums{
+ width: 233.33px;
+ height: 100px;
+}
+
